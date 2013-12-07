@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">दिल्ली किराया कैलक्यूलेटर</string>
+    <string name="ver">संस्करण: 1.0</string>
+    <string name="dev">टीम हार्ड टारगेट द्वारा विकसित</string>
+    <string name="action_more">अधिक</string>
+    <string name="action_rate">रेट करें</string>
+    <string name="action_share">शेयर</string>
+    <string name="action_disclaimer">निबंधन और शर्तें</string>
+    <string name="action_about">हमारे बारे में</string>
+    <string name="action_exit">बाहर जाएं</string>
+    <string name="title_section1">ऑटो रिक्शा</string>
+    <string name="title_section2">टैक्सी</string>
+    <string name="tv_1">दूरी</string>
+    <string name="tv_2">यात्रा का समय</string>
+    <string name="tv_3">प्रतीक्षा समय (मिनटों में)</string>
+    <string name="tv_4">सामान</string>
+    <string name="tv_5">टाइप</string>
+    <string name="hint_1">दूरी</string>
+    <string name="hint_2">यात्रा का समय</string>
+    <string name="hint_3">प्रतीक्षा समय (मिनटों में)</string>
+    <string name="hint_4">बैग की संख्या</string>
+    <string name="rb_yes">रात्रि</string>
+    <string name="rb_no">दिन</string>
+    <string name="rb_AC">एसी</string>
+    <string name="rb_NonAC">नॉन एसी</string>
+    <string name="btn">किराए की गणना करें</string>
+    <string name="tv1">दूरी:</string>
+    <string name="tv2">यात्रा का समय: </string>
+    <string name="tv3">प्रतीक्षा समय: </string>
+    <string name="tv4">सामान: </string>
+    <string name="tv5">टाइप: </string>
+    <string name="vehicle0">वाहन: ऑटो रिक्शा</string>
+    <string name="vehicle1">वाहन: टैक्सी</string>
+    <string name="min">मिनट</string>
+    <string name="km">कि.मी.</string>
+    <string name="fare">कुल किराया: रु.</string>
+    <string name="dialog_title">चेतावनी</string>
+    <string name="dialog_message">क्या आप बाहर जाना चाहते हैं?</string>
+    <string name="yes">ठीक</string>
+    <string name="no">रद्द करें</string>
+
+</resources>

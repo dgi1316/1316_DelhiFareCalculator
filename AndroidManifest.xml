@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hard.targets.delhi.fare.calculator"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme" >
+        <activity
+            android:name="com.hard.targets.delhi.fare.calculator.SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.hard.targets.delhi.fare.calculator.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.hard.targets.delhi.fare.calculator.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.hard.targets.delhi.fare.calculator.ViewActivity"
+            android:label="@string/app_name"
+            android:parentActivityName="com.hard.targets.delhi.fare.calculator.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.hard.targets.delhi.fare.calculator.MainActivity" />
+
+            <intent-filter>
+                <action android:name="com.hard.targets.delhi.fare.calculator.VIEWACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.hard.targets.delhi.fare.calculator.AboutActivity"
+            android:label="@string/app_name"
+            android:parentActivityName="com.hard.targets.delhi.fare.calculator.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.hard.targets.delhi.fare.calculator.MainActivity" />
+            
+            <intent-filter>
+                <action android:name="com.hard.targets.delhi.fare.calculator.ABOUTACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.hard.targets.delhi.fare.calculator.DisclaimerActivity"
+            android:label="@string/app_name"
+            android:parentActivityName="com.hard.targets.delhi.fare.calculator.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.hard.targets.delhi.fare.calculator.MainActivity" />
+            
+            <intent-filter>
+                <action android:name="com.hard.targets.delhi.fare.calculator.DISCLAIMERACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    	<activity
+            android:name="com.google.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+    </application>
+
+</manifest>

@@ -1,0 +1,160 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity$DummySectionFragment" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            
+            <TextView
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:padding="5dp"
+        		android:text="@string/tv_1"
+        		android:textStyle="bold"
+        		android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    		<View
+        		android:layout_width="match_parent"
+        		android:layout_height="1px"
+        		android:background="#000000" />
+
+    		<EditText
+        		android:id="@+id/etDistance"
+        		android:layout_width="match_parent"
+        		android:layout_height="wrap_content"
+        		android:hint="@string/hint_1"
+        		android:inputType="numberDecimal" />
+
+    		<TextView
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:padding="5dp"
+    		    android:text="@string/tv_2"
+    		    android:textStyle="bold"
+    		    android:textAppearance="?android:attr/textAppearanceMedium" />
+    		
+    		<View
+    		    android:layout_width="match_parent"
+    		    android:layout_height="1px"
+    		    android:background="#000000" />
+    		
+    		<RadioGroup
+    		    android:id="@+id/rgTravelTime"
+    		    android:layout_width="match_parent"
+    		    android:layout_height="wrap_content" >
+    		    
+    		    <RadioButton
+    		        android:id="@+id/rbDay"
+    		        android:layout_width="match_parent"
+    		        android:layout_height="wrap_content"
+    		        android:checked="true"
+    		        android:text="@string/rb_no" />
+
+    		    <RadioButton
+    		        android:id="@+id/rbNight"
+    		        android:layout_width="match_parent"
+    		        android:layout_height="wrap_content"
+    		        android:text="@string/rb_yes" />
+    		</RadioGroup>
+    		
+    		<TextView
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:padding="5dp"
+    		    android:text="@string/tv_5"
+    		    android:textStyle="bold"
+    		    android:textAppearance="?android:attr/textAppearanceMedium" />
+    		
+    		<View
+    		    android:layout_width="match_parent"
+    		    android:layout_height="1px"
+    		    android:background="#000000" />
+    		
+    		<RadioGroup
+    		    android:id="@+id/rgAC"
+    		    android:layout_width="match_parent"
+    		    android:layout_height="wrap_content" >
+    		    
+    		    <RadioButton
+    		        android:id="@+id/rbNonAC"
+    		        android:layout_width="match_parent"
+    		        android:layout_height="wrap_content"
+    		        android:checked="true"
+    		        android:text="@string/rb_NonAC" />
+
+    		    <RadioButton
+    		        android:id="@+id/rbAC"
+    		        android:layout_width="match_parent"
+    		        android:layout_height="wrap_content"
+    		        android:text="@string/rb_AC" />
+    		</RadioGroup>
+    		
+    		<TextView
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:padding="5dp"
+    		    android:text="@string/tv_3"
+    		    android:textStyle="bold"
+    		    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    		<View
+    		    android:layout_width="match_parent"
+    		    android:layout_height="1px"
+    		    android:background="#000000" />
+    		
+    		<EditText
+    		    android:id="@+id/etWaitTime"
+    		    android:layout_width="match_parent"
+    		    android:layout_height="wrap_content"
+    		    android:hint="@string/hint_3"
+    		    android:inputType="number" />
+
+    		<TextView
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:padding="5dp"
+    		    android:text="@string/tv_4"
+    		    android:textStyle="bold"
+    		    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    		<View
+    		    android:layout_width="match_parent"
+    		    android:layout_height="1px"
+    		    android:background="#000000" />
+
+    		<EditText
+    		    android:id="@+id/etLuggage"
+    		    android:layout_width="match_parent"
+    		    android:layout_height="wrap_content"
+    		    android:hint="@string/hint_4"
+    		    android:inputType="number" />
+
+    		<Button
+    		    android:id="@+id/btnCalculate"
+    		    android:layout_width="match_parent"
+    		    android:layout_height="wrap_content"
+    		    android:text="@string/btn" />
+            
+        </LinearLayout>
+    </ScrollView>
+    
+    <com.google.ads.AdView android:id="@+id/av"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        ads:adUnitId="a15295752d4668c"
+        ads:adSize="BANNER"
+        ads:loadAdOnCreate="true" />
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Delhi Fare Calculator</string>
+    <string name="ver">Version: 1.0</string>
+    <string name="dev">Developed By: Team Hard Targets</string>
+    <string name="action_more">More</string>
+    <string name="action_rate">Rate Us</string>
+    <string name="action_share">Share</string>
+    <string name="action_disclaimer">Disclaimer</string>
+    <string name="action_about">About Us</string>
+    <string name="action_exit">Exit</string>
+    <string name="title_section1">Auto Rickshaw</string>
+    <string name="title_section2">Taxi</string>
+    <string name="tv_1">Distance</string>
+    <string name="tv_2">Time of Travel</string>
+    <string name="tv_3">Waiting Time (in min.)</string>
+    <string name="tv_4">Luggage</string>
+    <string name="tv_5">Type</string>
+    <string name="hint_1">Distance Travelled</string>
+    <string name="hint_2">Time of Travel</string>
+    <string name="hint_3">Waiting Time (in min.)</string>
+    <string name="hint_4">Number of Bags</string>
+    <string name="rb_yes">Night</string>
+    <string name="rb_no">Day</string>
+    <string name="rb_AC">AC</string>
+    <string name="rb_NonAC">Non AC</string>
+    <string name="btn">Calculate Fare</string>
+    <string name="tv1">Distance: </string>
+    <string name="tv2">Time of Travel: </string>
+    <string name="tv3">Waiting Time: </string>
+    <string name="tv4">Luggage: </string>
+    <string name="tv5">Type: </string>
+    <string name="vehicle0">VEHICLE: Auto Rickshaw</string>
+    <string name="vehicle1">VEHICLE: Taxi</string>
+    <string name="min">min(s)</string>
+    <string name="km">km(s)</string>
+    <string name="fare">Total Fare: Rs.</string>
+    <string name="dialog_title">Alert</string>
+    <string name="dialog_message">Are you sure you want to quit the application?</string>
+    <string name="yes">Quit</string>
+    <string name="no">Return</string>
+
+</resources>
